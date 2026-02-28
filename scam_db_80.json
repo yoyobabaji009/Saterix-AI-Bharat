@@ -1,0 +1,894 @@
+{
+  "metadata": {
+    "country": "India",
+    "total_messages": 80,
+    "languages": [
+      "English",
+      "Hindi",
+      "Hinglish",
+      "Bengali"
+    ]
+  },
+  "scams": [
+    {
+      "id": 1,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 2,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 3,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 4,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 5,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 6,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 7,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 8,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 9,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 10,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 11,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 12,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 13,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 14,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 15,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 16,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 17,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 18,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 19,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 20,
+      "category": "Digital Arrest",
+      "messages": {
+        "english": "Legal notice from Cyber Cell. Respond immediately to avoid arrest.",
+        "hindi": "साइबर सेल से कानूनी नोटिस। गिरफ्तारी से बचने के लिए तुरंत जवाब दें।",
+        "hinglish": "Cyber Cell ka legal notice hai, turant reply karo warna arrest.",
+        "bengali": "সাইবার সেল থেকে আইনি নোটিস। সঙ্গে সঙ্গে উত্তর দিন।"
+      },
+      "technical_reason": "Impersonates law enforcement and creates panic."
+    },
+    {
+      "id": 21,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 22,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 23,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 24,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 25,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 26,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 27,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 28,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 29,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 30,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 31,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 32,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 33,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 34,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 35,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 36,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 37,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 38,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 39,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 40,
+      "category": "Electricity",
+      "messages": {
+        "english": "Electricity service will be disconnected due to unpaid bill.",
+        "hindi": "बकाया बिल के कारण बिजली सेवा बंद की जाएगी।",
+        "hinglish": "Bill pending hai, electricity disconnect ho jayegi.",
+        "bengali": "বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।"
+      },
+      "technical_reason": "Threatens service disruption."
+    },
+    {
+      "id": 41,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 42,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 43,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 44,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 45,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 46,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 47,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 48,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 49,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 50,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 51,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 52,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 53,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 54,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 55,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 56,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 57,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 58,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 59,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 60,
+      "category": "KYC/Bank",
+      "messages": {
+        "english": "Bank account restricted due to incomplete KYC.",
+        "hindi": "अधूरी केवाईसी के कारण बैंक खाता प्रतिबंधित।",
+        "hinglish": "KYC incomplete hai, account restrict ho gaya.",
+        "bengali": "অসম্পূর্ণ KYC-এর কারণে অ্যাকাউন্ট সীমাবদ্ধ।"
+      },
+      "technical_reason": "Pressures user to share sensitive data."
+    },
+    {
+      "id": 61,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 62,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 63,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 64,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 65,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 66,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 67,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 68,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 69,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 70,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 71,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 72,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 73,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 74,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 75,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 76,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 77,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 78,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 79,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    },
+    {
+      "id": 80,
+      "category": "Government Subsidy",
+      "messages": {
+        "english": "Government subsidy pending. Verify to receive funds.",
+        "hindi": "सरकारी सब्सिडी लंबित है। राशि पाने के लिए सत्यापन करें।",
+        "hinglish": "Government subsidy pending hai, verify karo.",
+        "bengali": "সরকারি ভর্তুকি বাকি আছে। যাচাই করুন।"
+      },
+      "technical_reason": "Misuses government scheme branding."
+    }
+  ]
+}
