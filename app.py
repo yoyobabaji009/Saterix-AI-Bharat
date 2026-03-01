@@ -46,10 +46,9 @@ def analyze_scam_text(user_input):
         except Exception:
             return "🛡️ **SATERIX VERDICT: ERROR**\nCould not load scam_db_80.json.", "ERROR"
 
-       user_input_lower = user_input.lower()
+        user_input_lower = user_input.lower()
         
         # --- UPGRADE: Context-Aware Dual-Trigger Logic ---
-        # Requires BOTH a Subject AND a Threat word to flag as dangerous
         category_triggers = {
             "Digital Arrest": (["cyber cell", "aadhaar", "साइबर", "সাইবার"], ["arrest", "legal notice", "गिरफ्तारी", "গ্রেপ্তার"]),
             "Electricity": (["electricity", "बिजली", "বিদ্যুৎ"], ["disconnected", "unpaid", "काट", "বিচ্ছিন্ন"]),
@@ -70,6 +69,8 @@ def analyze_scam_text(user_input):
                         reason = scam["technical_reason"]
                         break
                 return f"DANGEROUS\nReason: Threat pattern ({', '.join(found)}) detected locally. Analysis: {reason}", "LOCAL_FALLBACK"
+        
+        return "SAFE\nNo immediate patterns detected.", "LOCAL_FALLBACK"
     
 # ===========================
 # 2. The Streamlit Frontend Interface
@@ -94,7 +95,7 @@ st.divider()
 tab1, tab2 = st.tabs(["💬 Text / SMS Scan", "🎙️ WhatsApp Voice Note (Beta)"])
 
 with tab1:
-    user_text = st.text_area("Paste suspicious message here:", height=150, placeholder="e.g. বकेया बिलের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।")
+    user_text = st.text_area("Paste suspicious message here:", height=150, placeholder="e.g. বকেয়া বিলের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।")
     
     if st.button("🔍 INITIATE DEEP SCAN", use_container_width=True):
         if user_text:
