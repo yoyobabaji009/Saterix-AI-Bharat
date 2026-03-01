@@ -7,7 +7,6 @@ import time
 from styles import apply_custom_ui, display_sidebar, render_verdict
 
 # 1. Establish the Secure Bridge to AWS
-# 1. Establish the Secure Bridge to AWS
 bedrock_client = boto3.client(
     service_name='bedrock-runtime',
     region_name='us-east-1', 
@@ -90,7 +89,7 @@ st.divider()
 tab1, tab2 = st.tabs(["💬 Text / SMS Scan", "🎙️ WhatsApp Voice Note (Beta)"])
 
 with tab1:
-    user_text = st.text_area("Paste suspicious message here:", height=150, placeholder="e.g. बकेया बिलের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।")
+    user_text = st.text_area("Paste suspicious message here:", height=150, placeholder="e.g. বकेया बिलের কারণে বিদ্যুৎ সংযোগ বিচ্ছিন্ন হবে।")
     
     if st.button("🔍 INITIATE DEEP SCAN", use_container_width=True):
         if user_text:
