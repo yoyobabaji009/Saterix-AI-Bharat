@@ -46,25 +46,30 @@ def analyze_scam_text(user_input):
         except Exception:
             return "🛡️ **SATERIX VERDICT: ERROR**\nCould not load scam_db_80.json.", "ERROR"
 
-        user_input_lower = user_input.lower()
+       user_input_lower = user_input.lower()
+        
+        # --- UPGRADE: Context-Aware Dual-Trigger Logic ---
+        # Requires BOTH a Subject AND a Threat word to flag as dangerous
         category_triggers = {
-            "Digital Arrest": ["arrest", "cyber cell", "legal notice", "गिरफ्तारी", "साइबर", "সাইবার"],
-            "Electricity": ["electricity", "disconnected", "unpaid bill", "बिजली", "বিদ্যুৎ"],
-            "KYC/Bank": ["kyc", "bank account", "restricted", "केवाईसी", "অ্যাকাউন্ট"],
-            "Government Subsidy": ["subsidy", "government", "funds", "सब्सिडी", "ভর্তুকি"]
+            "Digital Arrest": (["cyber cell", "aadhaar", "साइबर", "সাইবার"], ["arrest", "legal notice", "गिरफ्तारी", "গ্রেপ্তার"]),
+            "Electricity": (["electricity", "बिजली", "বিদ্যুৎ"], ["disconnected", "unpaid", "काट", "বিচ্ছিন্ন"]),
+            "KYC/Bank": (["bank", "account", "खाता", "অ্যাকাউন্ট"], ["kyc", "restricted", "blocked", "केवाईसी", "ব্লক"]),
+            "Government Subsidy": (["subsidy", "government", "सब्सिडी", "ভর্তুকি"], ["funds", "claim", "दावा"])
         }
 
-        for category, keywords in category_triggers.items():
-            found = [word for word in keywords if word in user_input_lower]
-            if found:
-                reason = "Social engineering tactics detected."
+        for category, (subjects, threats) in category_triggers.items():
+            found_sub = [w for w in subjects if w in user_input_lower]
+            found_thr = [w for w in threats if w in user_input_lower]
+            
+            # Only trigger if the message mentions BOTH the subject (e.g., electricity) AND a threat (e.g., disconnected)
+            if found_sub and found_thr:
+                found = found_sub + found_thr
+                reason = "Context and threat combination detected."
                 for scam in db.get("scams", []):
                     if scam["category"] == category:
                         reason = scam["technical_reason"]
                         break
-                return f"DANGEROUS\nReason: High-pressure keywords ({', '.join(found)}) detected locally. Analysis: {reason}", "LOCAL_FALLBACK"
-        
-        return "SAFE\nNo immediate patterns detected.", "LOCAL_FALLBACK"
+                return f"DANGEROUS\nReason: Threat pattern ({', '.join(found)}) detected locally. Analysis: {reason}", "LOCAL_FALLBACK"
     
 # ===========================
 # 2. The Streamlit Frontend Interface
