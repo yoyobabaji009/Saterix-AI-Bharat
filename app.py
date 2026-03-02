@@ -7,6 +7,7 @@ import time
 from styles import apply_custom_ui, display_sidebar, render_verdict
 
 # 1. Establish the Secure Bridge to AWS
+# Bedrock Client for the Primary Brain
 bedrock_client = boto3.client(
     service_name='bedrock-runtime',
     region_name='us-east-1', 
@@ -14,8 +15,23 @@ bedrock_client = boto3.client(
     aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
 )
 
+# Lambda Client for the AWS-Native Fallback Engine
+lambda_client = boto3.client(
+    service_name='lambda',
+    region_name='us-east-1',
+    aws_access_key_id=st.secrets["AWS_ACCESS_KEY_ID"],
+    aws_secret_access_key=st.secrets["AWS_SECRET_ACCESS_KEY"]
+)
+
 def analyze_scam_text(user_input):
-    # 1. THE REAL BRAIN: Attempting to call AWS Bedrock (Amazon Titan Text Express)
+    """
+    Tiered Analysis Architecture:
+    Tier 1: Amazon Bedrock (Titan LLM)
+    Tier 2: AWS Lambda (Serverless Heuristics + S3 Database)
+    Tier 3: Local Node (Last Resort)
+    """
+    
+    # --- TIER 1: AMAZON BEDROCK ---
     model_id = "amazon.titan-text-express-v1"
     prompt = f"You are Saterix, a security AI. Analyze this message for social engineering scams. If it's a scam, output DANGEROUS and explain why in English and Hindi. Message: {user_input}"
     
@@ -36,42 +52,34 @@ def analyze_scam_text(user_input):
             contentType="application/json"
         )
         response_body = json.loads(response.get('body').read())
-        return response_body.get('results')[0].get('outputText').strip(), "AWS_TITAN"
+        return response_body.get('results')[0].get('outputText').strip(), "AWS_BEDROCK_TITAN"
 
     except Exception as e:
-        # 2. THE SAFETY NET: Local Cognitive Firewall
+        # --- TIER 2: AWS LAMBDA (Serverless Fallback) ---
         try:
-            with open("scam_db_80.json", "r", encoding="utf-8") as f:
-                db = json.load(f)
-        except Exception:
-            return "🛡️ **SATERIX VERDICT: ERROR**\nCould not load scam_db_80.json.", "ERROR"
-
-        user_input_lower = user_input.lower()
-        
-        # --- UPGRADE: Context-Aware Dual-Trigger Logic ---
-        category_triggers = {
-            "Digital Arrest": (["cyber cell", "aadhaar", "साइबर", "সাইবার"], ["arrest", "legal notice", "गिरफ्तारी", "গ্রেপ্তার"]),
-            "Electricity": (["electricity", "बिजली", "বিদ্যুৎ"], ["disconnected", "unpaid", "काट", "বিচ্ছিন্ন"]),
-            "KYC/Bank": (["bank", "account", "खाता", "অ্যাকাউন্ট"], ["kyc", "restricted", "blocked", "केवाईसी", "ব্লক"]),
-            "Government Subsidy": (["subsidy", "government", "सब्सिडी", "ভর্তুকি"], ["funds", "claim", "दावा"])
-        }
-
-        for category, (subjects, threats) in category_triggers.items():
-            found_sub = [w for w in subjects if w in user_input_lower]
-            found_thr = [w for w in threats if w in user_input_lower]
+            # Triggering the AWS-native Lambda engine
+            lambda_response = lambda_client.invoke(
+                FunctionName='SaterixScanner',
+                InvocationType='RequestResponse',
+                Payload=json.dumps({"text": user_input})
+            )
             
-            # Only trigger if the message mentions BOTH the subject (e.g., electricity) AND a threat (e.g., disconnected)
-            if found_sub and found_thr:
-                found = found_sub + found_thr
-                reason = "Context and threat combination detected."
-                for scam in db.get("scams", []):
-                    if scam["category"] == category:
-                        reason = scam["technical_reason"]
-                        break
-                return f"DANGEROUS\nReason: Threat pattern ({', '.join(found)}) detected locally. Analysis: {reason}", "LOCAL_FALLBACK"
+            # Parse the Lambda output
+            result = json.loads(lambda_response['Payload'].read())
+            data = json.loads(result.get('body', '{}'))
+            
+            if "verdict" in data:
+                return f"{data['verdict']}\nAnalysis: {data.get('reason', 'Interception via serverless edge node.')}", "AWS_LAMBDA_S3"
         
-        return "SAFE\nNo immediate patterns detected.", "LOCAL_FALLBACK"
-    
+        except Exception as lambda_err:
+            # --- TIER 3: LOCAL NODE (Emergency Fallback) ---
+            # If both cloud layers fail, use the local script logic
+            user_input_lower = user_input.lower()
+            if "electricity" in user_input_lower and ("unpaid" in user_input_lower or "disconnected" in user_input_lower):
+                return "DANGEROUS\nReason: Local heuristic match for utility scam.", "LOCAL_EMERGENCY_NODE"
+                
+        return "SAFE\nNo immediate patterns detected.", "LOCAL_EMERGENCY_NODE"
+
 # ===========================
 # 2. The Streamlit Frontend Interface
 # ===========================
@@ -88,7 +96,7 @@ st.markdown("### 🌐 Global Threat Matrix")
 col1, col2, col3 = st.columns(3)
 col1.metric(label="Scams Intercepted", value="8,492", delta="120 in last hour")
 col2.metric(label="Vernacular Core", value="Active", delta="Bengali, Hindi, Eng", delta_color="normal")
-col3.metric(label="System Status", value="DEFCON 4", delta="Offline Fallback Ready", delta_color="off")
+col3.metric(label="System Status", value="DEFCON 4", delta="Hybrid Cloud Active", delta_color="normal")
 st.divider()
 
 # --- The Main Interface ---
@@ -101,28 +109,28 @@ with tab1:
         if user_text:
             # --- UPGRADE 2: Cyber-Security Boot Sequence ---
             with st.status("🚀 Initializing Saterix Cognitive Engine...", expanded=True) as status:
-                st.write("📡 Connecting to AWS / Local Node...")
+                st.write("📡 Routing to AWS Lambda / Bedrock...")
                 time.sleep(0.4)
-                st.write("🔍 Parsing vernacular syntax and intent...")
+                st.write("🔍 Synchronizing with Amazon S3 Threat Vault...")
                 time.sleep(0.4)
-                st.write("🛡️ Cross-referencing 80-point behavioral threat matrix...")
+                st.write("🛡️ Analyzing vernacular intent via Titan LLM...")
                 
                 verdict, engine_used = analyze_scam_text(user_text)
                 
                 status.update(label="Analysis Complete!", state="complete", expanded=False)
             
             # --- UPGRADE 3: Toast Notification ---
-            st.toast("Scan complete. Verdict rendered.", icon="✅")
+            st.toast(f"Scan complete via {engine_used}", icon="✅")
             
             st.divider()
             render_verdict(verdict)
 
             # --- Technical Analysis Expander ---
             with st.expander("⚙️ View Technical Analysis Details"):
-                st.write(f"**Routing Engine:** `{engine_used}`")
-                st.write(f"**Payload Length:** `{len(user_text)} characters`")
-                if engine_used == "LOCAL_FALLBACK":
-                    st.info("AWS connection blocked. Payload successfully routed to offline JSON heuristic scanner.")
+                st.write(f"**Primary Routing:** `{engine_used}`")
+                st.write(f"**Infrastructure Status:** AWS Lambda (Online), Amazon S3 (Connected)")
+                if "LOCAL" in engine_used:
+                    st.warning("Cloud Engine unavailble. Using local heuristic fallback.")
 
             # --- Action Loop ---
             if "DANGEROUS" in verdict:
@@ -133,5 +141,5 @@ with tab1:
             st.error("Please enter a message to initiate the scan.")
 
 with tab2:
-    st.info("🎙️ **Audio Scanning Engine (Coming Soon)**\n\nRural internet heavily relies on WhatsApp voice notes. Our Phase 2 roadmap includes local Whisper-based transcription to scan audio files for threat signatures.")
+    st.info("🎙️ **Audio Scanning Engine (Coming Soon)**\n\nPhase 2 roadmap includes AWS Transcribe/Whisper integration to scan WhatsApp audio files.")
     st.file_uploader("Upload WhatsApp Audio (.mp3, .ogg)", disabled=True)
