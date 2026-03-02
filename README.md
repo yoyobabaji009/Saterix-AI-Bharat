@@ -17,10 +17,12 @@ Traditional security tools rely on static blacklists, which fail against sophist
 ## ⚙️ Technical Architecture (AWS-Native Patterns)
 Saterix follows a resilient, serverless architecture to fulfill the "AI for Bharat" technical criteria:
 
-* **Brain (Amazon Bedrock):** Utilizes **Amazon Titan Text Express** for zero-shot vernacular intent parsing and threat categorization.
-* **Compute (AWS Lambda):** Orchestrates backend logic via serverless execution, ensuring the system scales instantly for millions of users.
-* **Storage (Amazon S3):** Hosts the **Saterix Threat Vault**, a centralized repository for our 80-point multi-lingual threat matrix and behavioral data.
-* **Security (AWS SDK):** Built with `boto3` to manage secure, encrypted communication between the edge frontend and the AWS cloud backbone.
+```mermaid
+graph TD
+    User((User)) -->|Vernacular Text| Streamlit[Streamlit UI - Edge Node]
+    Streamlit -->|Boto3 SDK| Bedrock[Amazon Bedrock - Titan Text Express]
+    Streamlit -.->|Failover| Lambda[AWS Lambda - Security Engine]
+    Lambda <-->|Secure Read| S3[(Amazon S3 - Threat Vault)]
 
 
 
