@@ -56,7 +56,7 @@ Saterix runs every message through a 3-layer security tunnel to ensure maximum p
 git clone [https://github.com/yoyobabaji009/Saterix-AI-Bharat](https://github.com/yoyobabaji009/Saterix-AI-Bharat)
 cd Saterix-AI-Bharat
 
-2. Install dependencies:
+2. Install dependencies
 pip install -r requirements.txt
 
 3. Configure Secrets:
@@ -72,7 +72,7 @@ streamlit run app.py
 
 Developed by Puskar Das & Team Loop Lords
 
- **Final GitHub Push**
+Final GitHub Push
 To apply this fixed version to your repository, run these commands in your terminal:
 ```bash
 git add README.md
